@@ -1,0 +1,95 @@
+#navbar {
+  position: fixed;
+  height: 100%;
+  min-width: 300px;
+  width: 4ww00px;
+  
+  top: 0px;
+  left: 0px;
+  
+  color: black;
+  background-color:;
+  padding: 85px 0px;
+  
+}
+
+Section {
+    background: rgb(230, 255, 255,0.1);
+    padding 2.5rem, 2.5rem;
+    border-radius: 2rem;
+    width: 500px;
+    margin: auto;
+    background: black;
+    color: white;
+  }
+  
+  Section header {
+    text-transform: uppercase;
+    font-weight: .bold;
+    font: 30px;
+    letter-spacing: 20px;
+  }
+
+@media only screen and (max-width: 800px)
+{
+  /* For mobile phones: */
+  
+  #Maryam_logo {
+   position: absolute;
+   height: auto;
+   min-width: 300px;
+   width: 300px;
+    
+   top: 10px;
+   left: 0px;
+   
+   z-index: 2;
+}
+  
+  #navbar {
+    position: absolute;
+    max-height: 300px;
+    max-width: 300px;
+    width: 300px;
+    
+    top: 0px;
+    left: 0px;
+    
+    color: black;
+    backgound-color: white;
+    padding: 75px 0px;
+    
+    z-index: 1;
+  }
+  
+  .header_text {
+    display: grid;
+    grid-template-column: 1fr, 1fr;
+    grid-gap: 50px;
+    grid-auto-rows: minmax (100px, auto);
+    
+    width: 100%;
+    height: auto;
+    
+    position: absolute;
+    top: 18vw;
+    left: 300px;
+    z-index: 2;
+  }
+  
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 300px;
+  }
+  
+  .img {
+    position: right;
+    width: 100%;
+    height: auto;
+    
+    left: 300px;
+    top: 145px;
+    margin: right;
+  }
+ 
